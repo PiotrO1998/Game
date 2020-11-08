@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.Pane?>
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.231" xmlns:fx="http://javafx.com/fxml/1" fx:controller="menu.LeaderboardController">
+   <children>
+      <TableView fx:id="allData" layoutX="65.0" layoutY="57.0" prefHeight="287.0" prefWidth="403.0">
+        <columns>
+          <TableColumn fx:id="name" prefWidth="153.0" text="NAME" />
+          <TableColumn fx:id="currentLevel" prefWidth="108.0" text="LEVEL" />
+            <TableColumn fx:id="steps" prefWidth="141.0" text="STEPS" />
+        </columns>
+      </TableView>
+   </children>
+</Pane>

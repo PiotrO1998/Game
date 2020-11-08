@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<VBox alignment="CENTER" prefHeight="406.0" prefWidth="591.0" spacing="10.0" style="-fx-background-image: url(&quot;https://i.imgur.com/kTrpaR8.png&quot;);" xmlns="http://javafx.com/javafx/8.0.231" xmlns:fx="http://javafx.com/fxml/1" fx:controller="menu.Controller">
+    <children>
+        <Button mnemonicParsing="false" onAction="#playGameButton" prefHeight="45.0" prefWidth="197.0" text="PLAY GAME">
+            <font>
+                <Font name="System Bold" size="21.0" fx:id="x1" />
+            </font>
+        </Button>
+        <Button mnemonicParsing="false" onAction="#leaderBoard" prefHeight="45.0" prefWidth="197.0" text="LEADERBOARD">
+            <font>
+                <Font name="System Bold" size="21.0" fx:id="x11" />
+            </font>
+        </Button>
+        <Button font="$x1" mnemonicParsing="false" onAction="#helpInstructions" prefHeight="45.0" prefWidth="196.0" text="HELP" />
+        <Button font="$x1" mnemonicParsing="false" onAction="#quitButton" prefHeight="45.0" prefWidth="197.0" text="QUIT" />
+        <Label fx:id="MOTD" alignment="CENTER" disable="false" prefHeight="20.0" prefWidth="479.0" text="" textFill="WHITE" translateX="10.0" translateY="85.0">
+            <font>
+                <Font name="Arial" size="14.0" />
+            </font>
+        </Label>
+    </children>
+    <padding>
+        <Insets bottom="30.0" left="10.0" right="10.0" top="30.0" />
+    </padding>
+</VBox>

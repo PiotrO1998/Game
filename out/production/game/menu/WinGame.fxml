@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.Pane?>
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-image: url(&quot;https://i.imgur.com/Xb6Xe4u.png&quot;);" xmlns="http://javafx.com/javafx/8.0.231" xmlns:fx="http://javafx.com/fxml/1" fx:controller="menu.WinGameController">
+   <children>
+      <Button layoutX="500.0" layoutY="334.0" mnemonicParsing="false" onAction="#continueButton" text="Continue" />
+   </children>
+</Pane>
